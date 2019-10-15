@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustViewPageControlView" customModule="DBBanner" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="334"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg1" translatesAutoresizingMaskIntoConstraints="NO" id="c7k-zE-hD5">
+                    <rect key="frame" x="16" y="16" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="Gc7-8P-UGu"/>
+                        <constraint firstAttribute="width" constant="80" id="pNy-J0-pw1"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗罗大陆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edc-hc-ALm">
+                    <rect key="frame" x="108" y="16" width="294" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NAg-vO-VHD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者：唐家三少" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Kh-Dr-aCI">
+                    <rect key="frame" x="108" y="58" width="294" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yls-4a-rlN">
+                    <rect key="frame" x="16" y="116" width="382" height="188"/>
+                    <string key="text">简介：唐门外门弟子唐三，因偷学内门绝学为唐门所不容，跳崖明志时却来到了另一个世界，一个属于武魂的世界。名叫斗罗大6。这里没有魔法，没有斗气，没有武术，却有神奇的武魂。这里的每个人，在自己六岁的时候，都会在武魂殿中令武魂觉醒。武魂有动物，有植物，有器物，它们可以辅助人们的日常生活。而其中一些特别出色的武魂却可以用来修炼，这个职业，是斗罗大6上最为强大也是最重要的职业，——魂师。当唐门暗器来到斗罗大6，当唐三武魂觉醒，他能否在这片武魂的世界重塑唐门辉煌？【小三出品，必属精品，全新设定，酬谢书友，放心收藏】职业等级：魂士、魂师、大魂师、魂尊、魂宗、魂王、魂帝、魂圣、斗罗、封号斗罗。</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yls-4a-rlN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="8HE-s3-Oe5"/>
+                <constraint firstItem="7Kh-Dr-aCI" firstAttribute="leading" secondItem="c7k-zE-hD5" secondAttribute="trailing" constant="12" id="92Z-Bm-BH6"/>
+                <constraint firstItem="c7k-zE-hD5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="BCI-rc-uQ3"/>
+                <constraint firstAttribute="trailing" secondItem="Edc-hc-ALm" secondAttribute="trailing" constant="12" id="D5w-WZ-cu5"/>
+                <constraint firstItem="yls-4a-rlN" firstAttribute="top" secondItem="c7k-zE-hD5" secondAttribute="bottom" constant="20" id="Hfy-M9-2tp"/>
+                <constraint firstItem="7Kh-Dr-aCI" firstAttribute="top" secondItem="Edc-hc-ALm" secondAttribute="bottom" constant="21" id="Qeg-wP-ZWe"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yls-4a-rlN" secondAttribute="trailing" constant="16" id="Vwm-Gy-HDH"/>
+                <constraint firstItem="Edc-hc-ALm" firstAttribute="leading" secondItem="c7k-zE-hD5" secondAttribute="trailing" constant="12" id="gr5-Zh-RtG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Kh-Dr-aCI" secondAttribute="trailing" constant="12" id="mdw-9F-HwP"/>
+                <constraint firstItem="c7k-zE-hD5" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="nD1-IG-eCg"/>
+                <constraint firstItem="Edc-hc-ALm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="16" id="tfg-4l-rxd"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yls-4a-rlN" secondAttribute="bottom" constant="30" id="yC3-A2-NIt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="icon" destination="c7k-zE-hD5" id="e0F-Vx-awz"/>
+            </connections>
+            <point key="canvasLocation" x="-4.3478260869565224" y="54.241071428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="timg1" width="640" height="427"/>
+    </resources>
+</document>
